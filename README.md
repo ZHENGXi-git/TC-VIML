@@ -79,3 +79,6 @@ This open-source is modified based on [VINS-Mono](https://github.com/HKUST-Aeria
 
 ### 6. Licence
 The source code is released under [GPLv3](https://www.gnu.org/licenses/) license.
+
+### Citation
+
