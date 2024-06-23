@@ -34,6 +34,14 @@ we open-sourced the dataset with detailed line labeling by
 https://github.com/ZHENGXi-git/TC-VIML.
 
 
-The flowchart of the proposed framework. The 3D lines in the prior map are detected offline, which are matched with
-the online detected 2D lines. After feature matching and tracking, the line correspondences, IMU measurements, and point feature pairs are integrated as constraints for factor graph optimization in a tightly coupled form
+The flowchart of the proposed framework is shown as follow. The 3D lines in the prior map are detected offline, which are matched with
+the online detected 2D lines. After feature matching and tracking, the line correspondences, IMU measurements, and point feature pairs are integrated as constraints for factor graph optimization in a tightly coupled form.
 <img src="https://github.com/ZHENGXi-git/TC-VIML/blob/main/support_files/image/framework.png" width="%30" height="%30" />
+
+### 1.Prerequisites
+
+1.1 Ubuntu 20.04 and ROS Noetic
+
+1.2 Dependency: Eigen3, Opencv4, and Ceres Solver
+
+
