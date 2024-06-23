@@ -76,7 +76,7 @@ run in the ~/catkin_ws/
 
 ### 5. Acknowledgement
 This open-source is modified based on [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git). 
-Thanks to the authors of VINS for their generous sharing!
+We would like to thank the authors of VINS for their generous sharing!
 
 ### 6. Licence
 The source code is released under [GPLv3](https://www.gnu.org/licenses/) license.
