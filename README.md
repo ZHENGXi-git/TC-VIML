@@ -69,9 +69,9 @@ run in the ~/catkin_ws/
 ### 4. Related paper
 
 ```
-[1] Pl-vio: Tightly-coupled monocular visual-inertial odometry using point and line features
+[1] Qin, Tong, Peiliang Li, and Shaojie Shen. "Vins-mono: A robust and versatile monocular visual-inertial state estimator." IEEE Transactions on Robotics 34.4 (2018): 1004-1020.
 
-[2] Vins-mono: A robust and versatile monocular visual-inertial state estimator
+[2] Yu, Huai, et al. "Monocular camera localization in prior lidar maps with 2d-3d line correspondences." 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2020.
 ```
 
 ### 5. Acknowledgement
