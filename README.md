@@ -38,7 +38,7 @@ The flowchart of the proposed framework is shown as follow. The 3D lines in the 
 the online detected 2D lines. After feature matching and tracking, the line correspondences, IMU measurements, and point feature pairs are integrated as constraints for factor graph optimization in a tightly coupled form.
 <img src="https://github.com/ZHENGXi-git/TC-VIML/blob/main/support_files/image/framework.png" width="%30" height="%30" />
 
-### 1.Prerequisites
+### 1. Prerequisites
 
 1.1 Ubuntu 20.04 and ROS Noetic
 
@@ -55,7 +55,27 @@ Clone the repository and catkin_make:
     source ~/catkin_ws/devel/setup.bash
 ```
 
-### Run on EuRoC dataset
+### 3. Run on EuRoC dataset
 
 Download [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets).
 
+run in the ~/catkin_ws/
+```
+    roslaunch vins_estimator euroc_line_tightly_coupled.launch 
+    roslaunch vins_estimator vins_rviz.launch
+    rosbag play YOUR_PATH_TO_DATASET/V1_01_easy.bag 
+```
+
+### 4. Related paper
+
+```
+[1] Pl-vio: Tightly-coupled monocular visual-inertial odometry using point and line features
+
+[2] Vins-mono: A robust and versatile monocular visual-inertial state estimator
+```
+
+### 5. Acknowledgement
+This open-source is modified based on [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git) Thanks to the authors for their generous sharing!
+
+### 6. Licence
+The source code is released under [GPLv3](https://www.gnu.org/licenses/) license.
