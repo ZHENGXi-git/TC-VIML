@@ -1,0 +1,42 @@
+<launch>
+<!-- V1_01_easy V1_02_medium V1_03_difficult V2_01_easy V2_02_medium V2_03_difficult -->
+    <arg name="sequence_name" default = "V1_01_easy" />
+    <arg name="data_name" default="$(find benchmark_publisher)/config/$(arg sequence_name)/data.csv" />
+    <arg name="cloud_name" default="$(find benchmark_publisher)/config/$(arg sequence_name)/dataseg.ply" />
+    <arg name="config_file" default="$(find benchmark_publisher)/config/$(arg sequence_name)/sensor.yaml" />
+    <!--arg name="config_path" default = "$(find feature_tracker)/../config/euroc/euroc_config.yaml" -->
+	<arg name="vins_path" default = "$(find feature_tracker)/../config/../" />
+    
+    <node name="feature_tracker" pkg="feature_tracker" type="feature_tracker" output="screen">
+        <param name="config_file" type="string" value="$(arg config_file)" />
+        <param name="vins_folder" type="string" value="$(arg vins_path)" />
+    </node>
+
+    <node name="linefeature_tracker" pkg="feature_tracker" type="LineFeature_tracker" output="screen">
+        <param name="config_file" type="string" value="$(arg config_file)" />
+        <param name="vins_folder" type="string" value="$(arg vins_path)" />
+    </node>
+
+    <node name="vins_estimator" pkg="vins_estimator" type="vins_estimator" output="screen">
+       <param name="config_file" type="string" value="$(arg config_file)" />
+       <param name="lines_map" type="string" value="$(find benchmark_publisher)/config/$(arg sequence_name)/line_3d.txt" />
+       <param name="chi_square_threshold" type="string" value="$(find benchmark_publisher)/config/$(arg sequence_name)/AlarmThreshold.txt" />
+       <param name="vins_folder" type="string" value="$(arg vins_path)" />
+    </node>
+
+    <node name="pose_graph" pkg="pose_graph" type="pose_graph" output="screen">
+        <param name="config_file" type="string" value="$(arg config_file)" />
+        <param name="visualization_shift_x" type="int" value="0" />
+        <param name="visualization_shift_y" type="int" value="0" />
+        <param name="skip_cnt" type="int" value="0" />
+        <param name="skip_dis" type="double" value="0" />
+    </node>
+
+    <!--node name="benchmark_publisher" pkg="benchmark_publisher" type="benchmark_publisher" output="screen">
+            <param name="data_name" type="string" value="$(find benchmark_publisher)/config/$(arg sequence_name)/data.csv" />
+            <param name="cloud_name" type="string" value="$(find benchmark_publisher)/config/$(arg sequence_name)/dataseg.ply" />
+            <param name="config_file" type="string" value="$(find benchmark_publisher)/config/$(arg sequence_name)/sensor.yaml" />
+            <remap from="~estimated_odometry" to="/vins_estimator/odometry" />
+    </node-->
+
+</launch>
