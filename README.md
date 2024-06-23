@@ -42,6 +42,16 @@ the online detected 2D lines. After feature matching and tracking, the line corr
 
 1.1 Ubuntu 20.04 and ROS Noetic
 
-1.2 Dependency: Eigen3, Opencv4, and Ceres Solver
+1.2 Dependency: Eigen3, Opencv4, and Ceres Solver.
+
+### 2. Build on ROS
+
+```
+    cd ~/catkin_ws/src
+    git clone https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git
+    cd ../
+    catkin_make
+    source ~/catkin_ws/devel/setup.bash
+```
 
 
