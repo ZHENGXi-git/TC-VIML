@@ -32,3 +32,4 @@ real-world indoor environments, and the results demonstrate the
 effectiveness of our methods. To benefit the research community,
 we open-sourced the dataset with detailed line labeling by
 https://github.com/ZHENGXi-git/TC-VIML.
+<img src="https://github.com/ZHENGXi-git/TC-VIML/support_files/image/framework_fig.pdf" width="%30" height="%30" />
