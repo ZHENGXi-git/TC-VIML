@@ -46,12 +46,16 @@ the online detected 2D lines. After feature matching and tracking, the line corr
 
 ### 2. Build on ROS
 
+Clone the repository and catkin_make:
 ```
     cd ~/catkin_ws/src
-    git clone https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git
+    git clone https://github.com/ZHENGXi-git/TC-VIML.git
     cd ../
     catkin_make
     source ~/catkin_ws/devel/setup.bash
 ```
 
+### Run on EuRoC dataset
+
+Download [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets).
 
