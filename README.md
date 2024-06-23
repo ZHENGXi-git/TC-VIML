@@ -32,4 +32,7 @@ real-world indoor environments, and the results demonstrate the
 effectiveness of our methods. To benefit the research community,
 we open-sourced the dataset with detailed line labeling by
 https://github.com/ZHENGXi-git/TC-VIML.
-<img src="https://github.com/ZHENGXi-git/TC-VIML/support_files/image/framework_fig.pdf" width="%30" height="%30" />
+
+The flowchart of the proposed framework. The 3D lines in the prior map are detected offline, which are matched with
+the online detected 2D lines. After feature matching and tracking, the line correspondences, IMU measurements, and point feature pairs are integrated as constraints for factor graph optimization in a tightly coupled form
+<img src="https://github.com/ZHENGXi-git/TC-VIML/support_files/image/framework.png" width="%30" height="%30" />
