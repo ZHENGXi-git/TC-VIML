@@ -81,5 +81,9 @@ We would like to thank the authors of VINS for their generous sharing!
 ### 6. Licence
 The source code is released under [GPLv3](https://www.gnu.org/licenses/) license.
 
+### 7. Supplementary Material
+
+The [Supplementary Material]() is the derivation of the obervability analysis about the proposed method.
+
 ### 7. Citation
 
