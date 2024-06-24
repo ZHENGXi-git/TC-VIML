@@ -83,7 +83,7 @@ The source code is released under [GPLv3](https://www.gnu.org/licenses/) license
 
 ### 7. Supplementary Material
 
-The [Supplementary Material]() is the derivation of the obervability analysis about the proposed method.
+The [Supplementary Material](https://github.com/ZHENGXi-git/TC-VIML/blob/main/support_files/paper/supplyment_material%20of%20Tightly-coupled%20Visual-Inertial-Map%20Integration%20with%20Observability%20Analysis%20for%20Reliable%20Localization%20of%20Intelligent%20Vehicles.pdf) is the derivation of the obervability analysis about the proposed method.
 
 ### 7. Citation
 
