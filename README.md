@@ -66,7 +66,12 @@ run in the ~/catkin_ws/
     rosbag play YOUR_PATH_TO_DATASET/V1_01_easy.bag 
 ```
 
-### 4. Related paper
+### 4. Supplementary Material
+
+The [Supplementary Material](https://github.com/ZHENGXi-git/TC-VIML/blob/main/support_files/paper/supplyment_material%20of%20Tightly-coupled%20Visual-Inertial-Map%20Integration%20with%20Observability%20Analysis%20for%20Reliable%20Localization%20of%20Intelligent%20Vehicles.pdf) is the derivation of the obervability analysis about the proposed method.
+
+
+### 5. Related paper
 
 ```
 [1] Qin, Tong, Peiliang Li, and Shaojie Shen. "Vins-mono: A robust and versatile monocular visual-inertial state estimator." IEEE Transactions on Robotics 34.4 (2018): 1004-1020.
@@ -74,16 +79,13 @@ run in the ~/catkin_ws/
 [2] Yu, Huai, et al. "Monocular camera localization in prior lidar maps with 2d-3d line correspondences." 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2020.
 ```
 
-### 5. Acknowledgement
+### 6. Acknowledgement
 This open-source is organized based on [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git). 
 We would like to thank the authors of VINS for their generous sharing!
 
-### 6. Licence
+### 7. Licence
 The source code is released under [GPLv3](https://www.gnu.org/licenses/) license.
 
-### 7. Supplementary Material
 
-The [Supplementary Material](https://github.com/ZHENGXi-git/TC-VIML/blob/main/support_files/paper/supplyment_material%20of%20Tightly-coupled%20Visual-Inertial-Map%20Integration%20with%20Observability%20Analysis%20for%20Reliable%20Localization%20of%20Intelligent%20Vehicles.pdf) is the derivation of the obervability analysis about the proposed method.
-
-### 7. Citation
+### 8. Citation
 
