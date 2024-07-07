@@ -89,3 +89,5 @@ The source code is released under [GPLv3](https://www.gnu.org/licenses/) license
 
 ### 8. Citation
 
+X. Zheng, W. Wen and L. -T. Hsu, "Tightly-coupled Visual/Inertial/Map Integration with Observability Analysis for Reliable Localization of Intelligent Vehicles," in IEEE Transactions on Intelligent Vehicles, doi: 10.1109/TIV.2024.3419101.
+
