@@ -101,4 +101,13 @@ X. Zheng, W. Wen and L. -T. Hsu, "Tightly-coupled Visual/Inertial/Map Integratio
 
 X. Zheng, W. Wen and L. -T. Hsu, "Tightly-coupled Line Feature-aided Visual Inertial Localization within Lightweight 3D Prior Map for Intelligent Vehicles," 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC), Bilbao, Spain, 2023, pp. 6019-6026, doi: 10.1109/ITSC57777.2023.10422196.
 
+@inproceedings{zheng2023tightly,
+  title={Tightly-coupled line feature-aided visual inertial localization within lightweight 3d prior map for intelligent vehicles},
+  author={Zheng, Xi and Wen, Weisong and Hsu, Li-Ta},
+  booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},
+  pages={6019--6026},
+  year={2023},
+  organization={IEEE}
+}
+
 
